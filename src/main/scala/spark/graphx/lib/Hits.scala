@@ -1,8 +1,9 @@
 package spark.graphx.lib
 
+import scala.reflect.ClassTag
+
 import org.apache.spark.Logging
 import org.apache.spark.graphx.Graph
-import scala.reflect.ClassTag
 
 /**
   * HITS (Hyperlink-Induced Topic Search) Algorithm implementation. The HITS algorithm analyzes
